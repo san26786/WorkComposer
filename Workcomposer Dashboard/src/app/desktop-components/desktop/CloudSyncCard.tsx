@@ -45,63 +45,23 @@ export default function CloudSyncCard() {
 
             {/* Large blurred purple glow */}
             <div
-                className="
-                    pointer-events-none
-                    absolute
-                    -right-16
-                    -top-16
-                    h-40
-                    w-40
-                    rounded-full
-                    bg-purple-500/20
-                    blur-3xl
-                    animate-pulse
-                "
+                className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-purple-500/20 blur-3xl animate-pulse"
             />
 
             {/* Bottom cloud glow */}
             <div
-                className="
-                    pointer-events-none
-                    absolute
-                    -bottom-20
-                    -left-10
-                    h-44
-                    w-44
-                    rounded-full
-                    bg-indigo-500/10
-                    blur-3xl
-                "
+                className="pointer-events-none absolute -bottom-20 -left-10 h-44 w-44 rounded-full bg-indigo-500/10 blur-3xl"
             />
 
             {/* Moving glow */}
             <div
-                className="
-                    pointer-events-none
-                    absolute
-                    left-1/2
-                    top-1/2
-                    h-24
-                    w-24
-                    -translate-x-1/2
-                    -translate-y-1/2
-                    rounded-full
-                    bg-purple-400/5
-                    blur-2xl
-                    animate-[cloudFloat_6s_ease-in-out_infinite]
-                "
+                className="pointer-events-none absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-400/5 blur-2xl animate-[cloudFloat_6s_ease-in-out_infinite]"
             />
 
             {/* Subtle grid/noise-like overlay */}
+            
             <div
-                className="
-                    pointer-events-none
-                    absolute
-                    inset-0
-                    opacity-[0.035]
-                    [background-image:linear-gradient(rgba(255,255,255,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.5)_1px,transparent_1px)]
-                    [background-size:24px_24px]
-                "
+                className="pointer-events-none absolute inset-0 opacity-[0.035] [background-image:linear-gradient(rgba(255,255,255,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.5)_1px,transparent_1px)] [background-size:24px_24px]"
             />
 
             {/* ========================= */}
@@ -113,18 +73,7 @@ export default function CloudSyncCard() {
                 {/* Header */}
                 <div className="flex items-center gap-3">
                     <div
-                        className="
-                            mb-3
-                            flex
-                            h-9
-                            w-9
-                            items-center
-                            justify-center
-                            rounded-lg
-                            bg-purple-500
-                            shadow-lg
-                            shadow-purple-500/20
-                        "
+                        className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-purple-500 shadow-lg shadow-purple-500/20"
                     >
                         <Cloud className="h-4 w-4 text-white" />
                     </div>
@@ -139,26 +88,12 @@ export default function CloudSyncCard() {
 
                     {/* Status */}
                     <div
-                        className="
-                            flex
-                            justify-between
-                            rounded-lg
-                            border
-                            border-white/[0.03]
-                            bg-[#101B2D]/90
-                            p-2
-                            backdrop-blur-sm
-                        "
+                        className="flex justify-between rounded-lg border border-white/[0.03] bg-[#101B2D]/90 p-2 backdrop-blur-sm"
                     >
                         <div className="flex items-center gap-1">
                             {sync.status === "syncing" ? (
                                 <RefreshCw
-                                    className="
-                                        h-3.5
-                                        w-3.5
-                                        animate-spin
-                                        text-yellow-400
-                                    "
+                                    className="h-3.5 w-3.5 animate-spin text-yellow-400"
                                 />
                             ) : (
                                 <Check
@@ -190,16 +125,7 @@ export default function CloudSyncCard() {
 
                     {/* Last Sync */}
                     <div
-                        className="
-                            flex
-                            justify-between
-                            rounded-lg
-                            border
-                            border-white/[0.03]
-                            bg-[#101B2D]/90
-                            p-2
-                            backdrop-blur-sm
-                        "
+                        className="flex justify-between rounded-lg border border-white/[0.03] bg-[#101B2D]/90 p-2 backdrop-blur-sm"
                     >
                         <div className="flex items-center gap-1">
                             <Clock className="h-3.5 w-3.5 text-purple-500" />
