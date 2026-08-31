@@ -1,0 +1,55 @@
+# Projects not included in this repository
+WorkComposer-clean/
+
+# Dependencies
+**/node_modules/
+
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Next.js
+**/.next/
+
+# Build output
+**/dist/
+**/build/
+**/out/
+
+# Electron releases
+**/release/
+
+# Logs
+**/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Recovery artifact
+today-changes.patch
+
+# Old individual Git repositories
+**/.git-backend-backup/
+**/.git-desktop-backup/
+**/.git-frontend-backup/
+
+# BrowserUrlReader build output
+BrowserUrlReader/bin/
+BrowserUrlReader/obj/
+
+# Old repository backups
+**/.git-backend-backup/
+**/.git-desktop-backup/
+**/.git-frontend-backup/
+
+# Recovery worktree
+WorkComposer-clean/
+
+# Temporary recovery patch
+today-changes.patch

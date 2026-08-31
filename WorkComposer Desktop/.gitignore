@@ -1,0 +1,29 @@
+# Node
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Windows
+.DS_Store
+Thumbs.db
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Electron old builds
+dist/
+dist-old/
+
+resources/LocationReader/bin/
+resources/LocationReader/obj/
+
+/resources/BrowserUrlReader.exe

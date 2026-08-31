@@ -1,0 +1,18 @@
+export const TIMEZONES = [
+    "UTC",
+    "Asia/Kolkata",
+    "Asia/Dubai",
+    "Asia/Singapore",
+    "Asia/Tokyo",
+    "Asia/Seoul",
+    "Europe/London",
+    "Europe/Paris",
+    "Europe/Berlin",
+    "America/New_York",
+    "America/Chicago",
+    "America/Denver",
+    "America/Los_Angeles",
+    "Australia/Sydney",
+    "Africa/Cairo",
+    "Africa/Johannesburg",
+];
