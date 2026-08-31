@@ -65,13 +65,9 @@ if (!singleInstanceLock) {
   }
 }
 
-const API_BASE_URL = isDev
-  ? "http://localhost:5000/api"
-  : "https://workcomposer-backend.onrender.com/api";
+const API_BASE_URL = "http://localhost:5000/api";
 
-const WEB_APP_URL = isDev
-  ? "http://localhost:3000"
-  : "https://work-composer-frontend.vercel.app";
+const WEB_APP_URL = "http://localhost:3000";
 
 const devLog = (...args) => {
   if (isDev) {
@@ -94,6 +90,7 @@ const logError = (error, context = "") => {
       `${new Date().toISOString()} ${
         context ? `[${context}] ` : ""
       }${message}\n\n`,
+      
     );
   } catch {}
 };
